@@ -1,16 +1,43 @@
 {
+  "featured_projects": [
+    {
+      "name": "Rhino",
+      "url": "/projects.html",
+      "picture_file": "rhino_new@2x.jpg",
+      "thumb_file": "rhino_new@0.5x.jpg"
+    },
+    {
+      "url": "/projects.html#mastermind",
+      "name": "Mastermind Manager",
+      "picture_file": "mastermind@2x.jpg",
+      "thumb_file": "mastermind@0.5x.jpg"
+    },
+    {
+      "url": "/projects.html#form2chat",
+      "name": "Form2chat.io",
+      "picture_file": "form2chat_1.png",
+      "thumb_file": "form2chat_1.jpg"
+    },
+    {
+      "url": "/projects.html#blackink",
+      "name": "BlackInk",
+      "picture_file": "blackink.jpg",
+      "thumb_file": "blackink.jpg"
+    }
+  ],
   "projects": [
     {
       "url": "https://www.sayrhino.com",
       "team": "1 backend developer, 1 frontend developer",
+      "scope": "Backend and Frontend",
       "location": "New York, USA",
       "industry": "FinTech",
       "year": "2018 - 2020",
       "name": "Rhino",
       "anchor": "mastermind",
-      "picture_file": "rhino.png",
-      "thumb_file": "rhino.jpg",
-      "description": "Rhino is a real estate technology company replacing security deposits with a smarter alternative that’s better for both renters and landlords. <br />Since 2018 we are working on this project in close cooperation with client developers team located in NY. Our engineers work as Ruby on Rails and React.js/Redux/TypeScript developers. Major achievments: built MVP almost from scratch; added integration with Yardi Voyager, developed recurring subscriptions flow with multiple Stripe accounts; built complex automatic reporting system for insurance partners.",
+      "picture_file": "rhino_new@2x.jpg",
+      "thumb_file": "rhino_new@0.5x.jpg",
+      "description": "Rhino is a real estate technology company replacing security deposits with a smarter alternative that’s better for both renters and landlords. Since 2018 we have been working on this project in close cooperation with the client developers team in NY. Our engineers work as Ruby on Rails and React.js/Redux/TypeScript developers. Significant achievements: built MVP almost from scratch; added integration with Yardi Voyager, developed recurring subscriptions flow with multiple Stripe accounts; built complex automatic reporting system for insurance partners.",
       "stack": [
         {
           "name": "Backend",
@@ -21,13 +48,15 @@
             "PhoenixFramework",
             "PostgreSQL",
             "Sidekiq",
-            "JSON API"
+            "JSON API",
+            "CanCanCan"
           ]
         },
         {
           "name": "Frontend",
           "tags": [
             "React",
+            "Redux",
             "TypeScript",
             "Flowtype"
           ]
@@ -48,84 +77,69 @@
             "Heroku",
             "Amazon Web Services",
             "RSpec",
-            "Capybara",
-            "CanCanCan"
+            "Capybara"
           ]
         }
-      ],
-      "tags": [
-        "Ruby on Rails",
-        "PostgreSQL",
-        "Elixir",
-        "PhoenixFramework",
-        "React",
-        "TypeScript",
-        "Flowtype",
-        "Amazon Web Services",
-        "Sidekiq",
-        "RSpec",
-        "Capybara",
-        "CanCanCan",
-        "Stripe",
-        "RESTful API",
-        "JSON API"
       ]
     },
     {
       "url": "https://mastermindbetter.com",
       "team": "2 backend developers, 1 frontend developer, Team leader",
+      "scope": "Full development cycle",
       "location": "Austin, TX, USA",
       "industry": "Productivity",
       "year": "2017 - 2020",
       "name": "Mastermind Manager",
-      "picture_file": "mastermind.png",
-      "thumb_file": "mastermind.jpg",
-      "anchor": "blackink",
-      "description": "Mastermind Manager is set of essential tools for mastermind group session management, brainstorming, goal setting and accountability. <br />Our team has been building this project from the very beggining. We've build application from sratch using Ruby on Rails and React/Redux. We also implemented WebRTC video integration with major platforms like Vidyo.io, Twilio, Jitsi Meet. Developed integration with Stripe and Mailchimp/Mandrill, and later replaced Mailchimp email templates builder with own custom solution.",
-      "tags": [
-        "Ruby on Rails",
-        "PostgreSQL",
-        "Elixir",
-        "PhoenixFramework",
-        "React",
-        "Redux",
-        "Webpack",
-        "Sidekiq",
-        "RSpec",
-        "Capybara",
-        "Pundit",
-        "Stripe",
-        "RESTful API",
-        "JSON API"
-      ]
-    },
-    {
-      "name": "BlackInk",
-      "team": "2 backend developers, 2 frontend developers, Team leader",
-      "url": "https://blackink.io",
-      "location": "Paris, France",
-      "industry": "FinTech, Media",
-      "year": "2019",
+      "picture_file": "mastermind@2x.jpg",
+      "thumb_file": "mastermind@0.5x.jpg",
       "anchor": "form2chat",
-      "picture_file": "blackink.jpg",
-      "thumb_file": "blackink.jpg",
-      "description": "<p>Blackink project goal was to simplify paywall ingration for news and magazine publishers and provide an all-in-one platform both for readers and publishers. Our team built this project from scratch, it consisted of 3 separate services: <ul style=\"color: initial;\"><li>Analytics API to track customers behaviour through payment flow (Elixir and PhoenixFramework)</li><li>Readers dashboard with purchases and wallet (Ruby on Rails)</li><li>Lightweight javascript paywall library to be embedded to publishers websites</li></ul></p>",
-      "tags": [
-        "Elixir",
-        "PhoenixFramework",
-        "Ruby on Rails",
-        "Amazon Web Services",
-        "JavaScript",
-        "Preact",
-        "Redis",
-        "Stripe",
-        "RESTful API",
-        "JSON API"
+      "description": "Mastermind Manager is a set of essential tools for mastermind group session management, brainstorming, goal setting, and accountability. Our team has been building this project from the beginning, using Ruby on Rails and React/Redux. <br />Major milestones: <ul><li>Implemented WebRTC video integration with major platforms: Twilio, Vidyo.io, Jitsi Meet.</li><li>Developed integration with Stripe and Mailchimp/Mandrill</li><li>Later replaced Mailchimp email templates builder with own custom solution.</li></ul>",
+      "stack": [
+        {
+          "name": "Backend",
+          "tags": [
+            "Ruby",
+            "Ruby on Rails",
+            "Elixir",
+            "PhoenixFramework",
+            "PostgreSQL",
+            "Sidekiq",
+            "JSON API",
+            "Pundit"
+          ]
+        },
+        {
+          "name": "Frontend",
+          "tags": [
+            "React",
+            "Redux"
+          ]
+        },
+        {
+          "name": "Integrations",
+          "tags": [
+            "Mailchimp",
+            "Mandrill",
+            "Twilio",
+            "Vidyo.io",
+            "Stripe"
+          ]
+        },
+        {
+          "name": "Tools (hosting, monitoring etc.)",
+          "tags": [
+            "Nginx",
+            "Digital Ocean",
+            "RSpec",
+            "Capybara"
+          ]
+        }
       ]
     },
     {
       "name": "Form2chat.io",
       "team": "2 full stack developers, 1 frontend developer",
+      "scope": "Full development cycle",
       "url": "https://form2chat.io",
       "year": "2019 - 2020",
       "location": "Tallin, Estonia",
@@ -133,20 +147,96 @@
       "picture_file": "form2chat_1.png",
       "thumb_file": "form2chat_1.jpg",
       "anchor": "blackink",
-      "description": "<p>Form2chat is a serverless form backend that allows to receive form submissions directly to major chat platforms: Telegram, Messenger, Slack and Viber without using email or any additional services. Form2chat also provides advanced features like spam protection, auto-responses with custom templates, file uploads and Zapier integration. Our team implemented this project from scratch and provided a full development service from initial design planning to maintenance in production.</p>",
-      "tags": [
-        "Ruby on Rails",
-        "PostgreSQL",
-        "Redis",
-        "Sidekiq",
-        "RSpec",
-        "Capybara",
-        "Digital Ocean",
-        "Paddle.com"
+      "description": "<p>Form2chat is a serverless form backend that allows to receive form submissions directly to major chat platforms: Telegram, Messenger, Slack and Viber without using email or any additional services. Form2chat also provides advanced features like spam protection, auto-responses with custom templates, file uploads and Zapier integration. A team of developers from our company implemented this project from scratch and provided a full development service from initial design planning to maintenance in production.</p>",
+      "stack": [
+        {
+          "name": "Backend",
+          "tags": [
+            "Ruby",
+            "Ruby on Rails",
+            "PostgreSQL",
+            "Sidekiq",
+            "Pundit"
+          ]
+        },
+        {
+          "name": "Frontend",
+          "tags": [
+            "jQuery"
+          ]
+        },
+        {
+          "name": "Integrations",
+          "tags": [
+            "Paddle.com",
+            "Telegram",
+            "Viber",
+            "Amazon Simple Email Service"
+          ]
+        },
+        {
+          "name": "Tools (hosting, monitoring etc.)",
+          "tags": [
+            "Nginx",
+            "Digital Ocean",
+            "RSpec",
+            "Capybara"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BlackInk",
+      "team": "2 backend developers, 2 frontend developers, Team leader",
+      "scope": "Full development cycle",
+      "url": "https://blackink.io",
+      "location": "Paris, France",
+      "industry": "FinTech, Media",
+      "year": "2019",
+      "anchor": "fsm",
+      "picture_file": "blackink.jpg",
+      "thumb_file": "blackink.jpg",
+      "description": "<p>BlackInk project goal was to simplify paywall integration for news and magazine publishers and provide an all-in-one platform both for readers and publishers. Our team built this project from scratch, and it consisted of 3 separate services: <ul style=\"color: initial;\"><li>Analytics API to track customers behavior through payment flow (Elixir and PhoenixFramework)</li><li>Readers dashboard with purchases and wallet (Ruby on Rails)</li><li>Lightweight javascript paywall library to be embedded to publishers websites</li></ul></p>",
+      "stack": [
+        {
+          "name": "Backend",
+          "tags": [
+            "Ruby",
+            "Ruby on Rails",
+            "Elixir",
+            "PhoenixFramework",
+            "PostgreSQL",
+            "Sidekiq",
+            "JSON API"
+          ]
+        },
+        {
+          "name": "Frontend",
+          "tags": [
+            "Preact",
+            "Redux"
+          ]
+        },
+        {
+          "name": "Integrations",
+          "tags": [
+            "Stripe"
+          ]
+        },
+        {
+          "name": "Tools (hosting, monitoring etc.)",
+          "tags": [
+            "Nginx",
+            "Amazon EC2",
+            "ExUnit",
+            "RSpec"
+          ]
+        }
       ]
     },
     {
       "team": "2 backend developers",
+      "scope": "Backend and Frontend",
       "location": "USA",
       "industry": "EdTech",
       "year": "2019 - 2020",
@@ -154,18 +244,39 @@
       "identifier": "fsm",
       "picture_file": "fsm.jpg",
       "thumb_file": "fsm.jpg",
+      "anchor": "page_end",
       "description":
-        "An all-in-one tool to manage flight school. Our Elixir and PhoenixFramework developers worked on server side on this project and was responsible for development of web dashboard and API for iOS application. <br /> Major milestones: <ul style=\"color: initial;\"><li>Built an automatic payment system that invoices user using flight data (via Stripe)</li><li>Added schools onboarding flow</li><li>Implemented Document Management System‎</li></ul>",
-      "tags": [
-        "Elixir",
-        "PhoenixFramework",
-        "React.js",
-        "ExUnit",
-        "Wallaby",
-        "Heroku",
-        "Stripe",
-        "RESTful API",
-        "JSON API"
+        "An all-in-one tool to manage flight school. Our Elixir and PhoenixFramework engineers took this project from another company developers team. They were able to learn the codebase and continue project maintenance successfully. Our team was responsible for the development of a web dashboard and API for the iOS application. <br /> Major milestones: <ul style=\"color: initial;\"><li>Built an automatic payment system that invoices user using flight data (via Stripe)</li><li>Added schools onboarding flow</li><li>Implemented Document Management System‎</li></ul>",
+      "stack": [
+        {
+          "name": "Backend",
+          "tags": [
+            "Elixir",
+            "PhoenixFramework",
+            "Erlang ETS"
+          ]
+        },
+        {
+          "name": "Frontend",
+          "tags": [
+            "React"
+          ]
+        },
+        {
+          "name": "Integrations",
+          "tags": [
+            "Stripe",
+            "SendGrid"
+          ]
+        },
+        {
+          "name": "Tools (hosting, monitoring etc.)",
+          "tags": [
+            "Heroku",
+            "Wallaby",
+            "ExUnit"
+          ]
+        }
       ]
     }
   ]

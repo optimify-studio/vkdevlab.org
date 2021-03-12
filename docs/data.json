@@ -28,11 +28,11 @@
   "projects": [
     {
       "url": "https://www.sayrhino.com",
-      "team": "1 backend developer, 1 frontend developer",
+      "team": "4 Full Stack developers (Ruby, JavaScript, Elixir)",
       "scope": "Backend and Frontend",
       "location": "New York, USA",
       "industry": "FinTech",
-      "year": "2018 - 2020",
+      "year": "2018 - Present",
       "name": "Rhino",
       "anchor": "mastermind",
       "picture_file": "rhino_new@2x.jpg",
@@ -83,17 +83,17 @@
       ]
     },
     {
-      "url": "https://mastermindbetter.com",
-      "team": "2 backend developers, 1 frontend developer, Team leader",
+      "url": "https://nucleusapp.io",
+      "team": "2 backend developers, 2 frontend developers, Team leader, Project Manager",
       "scope": "Full development cycle",
       "location": "Austin, TX, USA",
       "industry": "Productivity",
-      "year": "2017 - 2020",
+      "year": "2017 - Present",
       "name": "Mastermind Manager",
       "picture_file": "mastermind@2x.jpg",
       "thumb_file": "mastermind@0.5x.jpg",
       "anchor": "form2chat",
-      "description": "Mastermind Manager is a set of essential tools for mastermind group session management, brainstorming, goal setting, and accountability. Our team has been building this project from the beginning, using Ruby on Rails and React/Redux. <br />Major milestones: <ul><li>Implemented WebRTC video integration with major platforms: Twilio, Vidyo.io, Jitsi Meet.</li><li>Developed integration with Stripe and Mailchimp/Mandrill</li><li>Later replaced Mailchimp email templates builder with own custom solution.</li></ul>",
+      "description": "Nucleus (former Mastermind Manager) is a set of essential tools for mastermind group session management, brainstorming, goal setting, and accountability. Our team has been building this project from the beginning, using Ruby on Rails and React/Redux. <br />Major milestones: <ul><li>Implemented WebRTC video integration with major platforms: Twilio, Vidyo.io, Jitsi Meet.</li><li>Developed integration with Stripe and Mailchimp/Mandrill</li><li>Later replaced Mailchimp email templates builder with own custom solution.</li></ul>",
       "stack": [
         {
           "name": "Backend",
@@ -141,12 +141,12 @@
       "team": "2 full stack developers, 1 frontend developer",
       "scope": "Full development cycle",
       "url": "https://form2chat.io",
-      "year": "2019 - 2020",
+      "year": "2019 - Present",
       "location": "Tallin, Estonia",
       "industry": "Marketing & Advertising",
       "picture_file": "form2chat_1.png",
       "thumb_file": "form2chat_1.jpg",
-      "anchor": "blackink",
+      "anchor": "kindra",
       "description": "<p>Form2chat is a serverless form backend that allows to receive form submissions directly to major chat platforms: Telegram, Messenger, Slack and Viber without using email or any additional services. Form2chat also provides advanced features like spam protection, auto-responses with custom templates, file uploads and Zapier integration. A team of developers from our company implemented this project from scratch and provided a full development service from initial design planning to maintenance in production.</p>",
       "stack": [
         {
@@ -181,6 +181,53 @@
             "Digital Ocean",
             "RSpec",
             "Capybara"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kindra Connect",
+      "team": "1 Full Stack developer (Elixir, JavaScript), Project Manager",
+      "scope": "Full development cycle",
+      "url": "https://kindra.life",
+      "year": "2020 - Present",
+      "location": "California, USA",
+      "industry": "Dating",
+      "picture_file": "kindra@2x.jpg",
+      "thumb_file": "kindra@0.5x.jpg",
+      "anchor": "blackink",
+      "description": "<p>Kindra Connect brings together people who share the values of authenticity, kindness, community, creativity, play, and personal growth. We provided Kindra with a Full-Stack Elixir developer, responsible for:<ul><li>Maintenance of API server built with PhoenixFramework and Elixir and expanding it with new endpoints</li><li>Maintenance of admin dashboard built with React.js and Redux</li></ul></p>",
+      "stack": [
+        {
+          "name": "Backend",
+          "tags": [
+            "Elixir",
+            "PhoenixFramework",
+            "PostgreSQL",
+            "Mnesia"
+          ]
+        },
+        {
+          "name": "Frontend",
+          "tags": [
+            "React.js",
+            "Redux"
+          ]
+        },
+        {
+          "name": "Integrations",
+          "tags": [
+            "SendGrid",
+            "Cloudinary",
+            "Facebook"
+          ]
+        },
+        {
+          "name": "Tools (hosting, monitoring etc.)",
+          "tags": [
+            "Nginx",
+            "Amazon EC2",
+            "AppSignal"
           ]
         }
       ]
